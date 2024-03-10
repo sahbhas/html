@@ -1,0 +1,13 @@
+<script>
+      function hanoi(n,a,b,c){
+          if(n==1){
+              document.write("Move "+n+" from "+a+" to "+c+"</br>");
+          }
+          else{
+              hanoi(n-1,a,c,b);
+              document.write("Move "+n+" from "+a+" to "+c+"</br>")
+              hanoi(n-1,b,a,c);
+          }
+      }
+      hanoi(7,"A","B","C");
+</script>
