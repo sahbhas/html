@@ -9,5 +9,7 @@
               hanoi(n-1,b,a,c);
           }
       }
+
+
       hanoi(7,"A","B","C");
 </script>
